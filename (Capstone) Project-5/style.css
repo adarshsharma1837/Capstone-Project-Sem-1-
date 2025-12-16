@@ -1,0 +1,76 @@
+body{background-color: rgb(255, 255, 255);}
+nav{display: flex; justify-content: space-between;align-items: center; transform: translateY(-20px);}
+a{text-decoration: none;margin-left: 20px; margin-right: 20px; color: black;}
+a:hover{color: blue;}
+#Fhead{margin-left: 20px; color: rgb(49, 49, 196);font-family: cursive;}
+#main{background-image: url(./72f33ce2-4d8e-4b11-aacb-6b502ff54290.avif); background-size: cover; border: 2px solid black; height: 700px; opacity: 0.999; display: flex; justify-content: center; align-items: center; flex-direction: column; line-height: 0px; transform: translate(-20px,-22px) ;width: 1600px;box-shadow: 10px 10px 50px grey; }
+.main_text{font-size: 50px; color: white; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.main_text2{font-size: 20px;color: white}
+#search_bar{display: flex; background-color: rgb(249, 247, 247); width: 900px; justify-content: space-around; transform: translate(320px,-80px); height: 100px; border-radius: 20px; box-shadow: 10px 10px 50px gray;}
+form{align-self: center ; display: flex; justify-content: space-around; gap: 70px;}
+input,select,option{border-radius: 5px; border: 1px solid gray; padding: 5px; width: 110px; font-size: 5pxpx;background-color: rgb(255, 255, 255);}
+#search_button{color: white;background-color:rgb(49, 49, 196) ; border-radius: 5px; font-size: 15px; padding: 5px; width: 110px;}
+#properties{ display: grid; grid-template-columns: repeat(3,1fr);}
+.boxes{width: 400px;height: 410px;margin: 50px; background-color: rgba(255, 255, 255, 0.71);border-radius: 20px;box-shadow: 10px 10px 50px grey}
+#box1{background-image: url(./ai-generated-a-modern-house-in-the-evening-free-photo.webp);background-repeat: no-repeat ; background-size: 400px 250px;}
+#box2{background-image: url(./contemporary-island-villa.webp);background-repeat: no-repeat; background-size: 400px 250px;}
+#box3{background-image: url(./twilight-exterior-of-home-and-landscape.webp);background-repeat: no-repeat ; background-size: 400px 250px;}
+#box4{background-image: url(./pic_\(3\).webp);background-repeat: no-repeat; background-size: 400px 250px;}
+#box5{background-image: url(./b3b14bdafeeed2f4584ac9aca0ef4d67.webp);background-repeat: no-repeat; background-size: 400px 250px;}
+#box6{background-image: url(./auburn-01_m.webp);background-repeat: no-repeat; background-size: 400px 250px;}
+.Price{transform: translate(2px,250px); color: blue;margin-left:10px}
+.Design_name{transform: translate(2px,252px);margin-left:10px}
+.info{transform: translate(2px,254px);color: grey;margin-left:10px}
+.address{transform: translate(2px,256px);color: grey;margin-left:10px}
+#property_head{text-align: center; font-size:40px ; color: rgb(49, 49, 196);font-family: Verdana, sans-serif;}
+#Detail{text-align: center; font-size:40px ; color: rgb(49, 49, 196);font-family: Verdana, sans-serif;}
+#detail_parent{ height: 400px;display: flex;align-items: center; gap: 30px; border-radius: 30px;background-color: white;box-shadow: 10px 10px 50px grey;}
+#detail_img{width: 500px; height: 300px;border-radius: 30px; margin-left: 15px}
+.Design_name2{color: blue;font-size: 30px;}
+.Price2{color: blue;font-size: 30px;}
+.info2{color: grey; font-size: 20px;}
+#agents_head{text-align: center; font-size:40px ; color: rgb(49, 49, 196);font-family: Verdana, sans-serif;}
+#agent_parent{display: flex; border-radius: 30px;background-color: white; height: 400px;gap: 100px; justify-content: center;align-items: center;background-color: rgb(236, 236, 236);}
+.agents_img{border-radius: 50%; width: 100px; height: 100px;border: 4px solid rgb(49, 49, 196);margin-top: 10px;}
+.agents{width: 400px;border-radius: 30px;height: 300px;display: flex;flex-direction: column;align-items: center; background-color: white;box-shadow: 10px 10px 50px grey; }
+.Price3{color: blue; font-size: 30px;margin-bottom: 0px;}
+.info3{color: grey; font-size: 15px;margin-top: 2px; margin-bottom: 0px;}
+#choose_head{text-align: center; font-size:40px ; color: rgb(49, 49, 196);font-family: Verdana, sans-serif;}
+#choose_parent{background-color:  rgb(255, 255, 255);display: flex ;justify-content:space-around ;}
+.wcu_boxes{background-color: white; width: 300px;height: 250px;border-radius: 30px;box-shadow: 10px 10px 50px grey;}
+.info4{font-size: 30px;text-align: center;}
+.info5{font-size: 20px; color: grey;text-align: center;}
+.choose_img{width: 50px;height: 50px;transform: translate(120px,20px);border-radius: 10px;}
+#mid_bar{background-color: rgb(49, 49, 196);height: 150px;display: grid; grid-template-columns: repeat(4,1fr);justify-items: center;line-height: 2px}
+.info6{color: white;font-size: 40px;font-family: Georgia, 'Times New Roman', Times, serif;}
+.info7{color: rgb(218, 218, 218); margin-left: -10px;}
+#posts_head{text-align: center; font-size:40px ; color: rgb(49, 49, 196);font-family: Verdana, sans-serif;}
+#posts_parent{background-color: white;display: flex;justify-content: space-around;}
+.posts{background-color: white;box-shadow: 10px 10px 50px grey;height: 400px;width: 400px;border-radius: 30px;}
+#post1{background-image: url(./house-model-and-keys-on-architectural-blueprints-real-estate-concept-generative-ai-free-photo.webp);background-repeat: no-repeat;background-size: 400px 200px}
+#post2{background-image: url(./home-for-sale-with-real-estate-sign.webp);background-repeat: no-repeat;background-size: 400px 200px}
+#post3{background-image: url(./rising-interest-rates-and-mortgage-concept-with-percent-symbols-on-wooden-blocks-and-stacks-of-coins-representing-real-estate-home-loans-and-financial-growth-housing-borrowin.webp);background-repeat: no-repeat;background-size: 400px 200px}
+.info8{font-size: 22px;font-family: Georgia, 'Times New Roman', Times, serif;transform: translateY(200px);text-align: center;}
+.info9{font-size: 20px; color: grey;text-align: start;transform: translateY(220px);padding-left: 20px;}
+.info12{font-size: 15px; color: rgb(16, 23, 228);text-align: start;transform: translateY(225px);padding-left: 20px;}
+.info13{color: white;font-size: 20px;font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;}
+.info14{color: white;font-size: 15px;font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;}
+#justice{display: flex; justify-content: center;}
+#down_bar{width: 1300px; border: 2px solid black;height: 200px;background-color: rgb(49, 49, 196);padding-top: 20px;border-radius: 30px;}
+#bar_form{display: flex;justify-content: center; margin-top: 30px;gap: 20px;}
+#email{width: 200px;align-self: center;}
+#subscribe_button{background-color: orange;}
+#contact{display: flex;justify-content: center;}
+#contact_form{display: flex;flex-direction: column; align-items: center;gap:20px;box-shadow: 10px 10px 50px grey;width: 600px;height: 550px; border-radius: 30px;}
+.contact_inputs{width: 500px;height: 30px;}
+#contact_head{margin-bottom: 5px;text-align: center; font-size:35px ; color: rgb(49, 49, 196);font-family: Verdana, sans-serif;}
+#message{width: 500px;height: 80px;border-radius: 5px;}
+#contact_button{transform: translate(195px,-20px);background-color: rgb(49, 49, 196);color: white;border: none;width: 120px;height: 20px;}
+footer{display: grid;;width: 100%;background-color: rgb(26, 26, 39);grid-template-columns: repeat(4,1fr);justify-items: center;padding-top: 30px;}
+.info10{color: yellow;}
+.info11{color: rgb(155, 153, 153);}
+#copyright{padding-top: 10px;color: rgb(155, 153, 153);}
+
+
+
+
